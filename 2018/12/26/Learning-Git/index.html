@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Nisak&#39;s Space">
 <meta property="og:description" content="DescriptionI’ve been learning git when I was an undergrad but the git commands are too many for me to memorize especially when I haven’t been using them for a while.  In this article, I’m going to sum">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-26T12:51:41.913Z">
+<meta property="og:updated_time" content="2018-12-26T12:53:37.320Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Learning Git">
 <meta name="twitter:description" content="DescriptionI’ve been learning git when I was an undergrad but the git commands are too many for me to memorize especially when I haven’t been using them for a while.  In this article, I’m going to sum">
@@ -97,21 +97,21 @@
       
         <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>I’ve been learning git when I was an undergrad but the git commands are too many for me to memorize especially when I haven’t been using them for a while. </p>
 <p>In this article, I’m going to summarize some of the commonly used git commands that I encountered or learned from Nivra.</p>
-<h2 id="12-26-2018"><a href="#12-26-2018" class="headerlink" title="12/26/2018"></a>12/26/2018</h2><h3 id="1-Diverged"><a href="#1-Diverged" class="headerlink" title="1. Diverged"></a>1. Diverged</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Your branch and <span class="string">'origin/master'</span> have diverged,</span><br><span class="line">and have 1 and 12 different commits each, respectively.</span><br></pre></td></tr></table></figure>
+<h2 id="12-26-2018"><a href="#12-26-2018" class="headerlink" title="12/26/2018"></a>12/26/2018</h2><h3 id="1-Keywords-diverged"><a href="#1-Keywords-diverged" class="headerlink" title="1. Keywords: diverged"></a>1. Keywords: diverged</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Your branch and <span class="string">'origin/master'</span> have diverged,</span><br><span class="line">and have 1 and 12 different commits each, respectively.</span><br></pre></td></tr></table></figure>
 <h4 id="Scenario"><a href="#Scenario" class="headerlink" title="Scenario:"></a>Scenario:</h4><ol>
 <li>I new a post but I decide to delete it and not to push it to the master.</li>
 <li>I delete the md file in _post but not sure if there’s other modified files. </li>
 <li>However, when I do “git pull”, it reminds me that my current branch and ‘origin/master’ have diverged.</li>
 </ol>
 <h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution:"></a>Solution:</h4><h5 id="1-Do-not-keep-local-changes"><a href="#1-Do-not-keep-local-changes" class="headerlink" title="1. Do not keep local changes"></a>1. <a href="https://blog.csdn.net/robertsong2004/article/details/50471209" target="_blank" rel="noopener">Do not keep local changes</a></h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin</span><br><span class="line">git reset --hard origin/master</span><br></pre></td></tr></table></figure>
-<h3 id="3-Enter-passphrase-id-rsa"><a href="#3-Enter-passphrase-id-rsa" class="headerlink" title="3. Enter passphrase, id_rsa"></a>3. Enter passphrase, id_rsa</h3><h4 id="Scenario-1"><a href="#Scenario-1" class="headerlink" title="Scenario:"></a>Scenario:</h4><p>I currently encounter this every time I do “git push origin master”</p>
+<h3 id="2-Keywords-passphrase-id-rsa"><a href="#2-Keywords-passphrase-id-rsa" class="headerlink" title="2. Keywords: passphrase, id_rsa"></a>2. Keywords: passphrase, id_rsa</h3><h4 id="Scenario-1"><a href="#Scenario-1" class="headerlink" title="Scenario:"></a>Scenario:</h4><p>I currently encounter this every time I do “git push origin master”</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase <span class="keyword">for</span> key ‘/Users/renpeng/.ssh/id_rsa’:</span><br></pre></td></tr></table></figure>
 <h4 id="Solution-1"><a href="#Solution-1" class="headerlink" title="Solution:"></a>Solution:</h4><p><a href="https://blog.csdn.net/renpengddxx/article/details/79048573" target="_blank" rel="noopener">Type your github password</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/26/Learning-Git/" data-id="cjq56i3rv0000rosqdrrbasvp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/26/Learning-Git/" data-id="cjq56knnf0000svsq5fxt55n0" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commands/">commands</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
