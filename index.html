@@ -108,7 +108,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/26/Learning-Git/" data-id="cjq53oqlz0000nmsqgbljyy05" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/26/Learning-Git/" data-id="cjq53v2ef0000qksq7l3t1hwa" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commands/">commands</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
@@ -155,19 +155,20 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h2 id="Summary-from-Nisak"><a href="#Summary-from-Nisak" class="headerlink" title="Summary from Nisak"></a>Summary from Nisak</h2><h3 id="Using-Hexo-to-build-personal-website"><a href="#Using-Hexo-to-build-personal-website" class="headerlink" title="Using Hexo to build personal website"></a>Using Hexo to build personal website</h3><p><a href="https://www.jianshu.com/p/eded1dd2d794" target="_blank" rel="noopener">Hexo + Github</a></p>
-<p>Typo: Remember to change the deploy repo to the clone address of target repo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git </span><br><span class="line">  repo: git@github.com:usename/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
-<h3 id="Add-pictures-using-hexo-extension"><a href="#Add-pictures-using-hexo-extension" class="headerlink" title="Add pictures using hexo extension"></a>Add pictures using hexo extension</h3><p><a href="https://www.cnblogs.com/codehome/p/8428738.html?utm_source=debugrun&amp;utm_medium=referral" target="_blank" rel="noopener">Hexo extension</a><br>I used the first method.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="Summary-from-Nisak"><a href="#Summary-from-Nisak" class="headerlink" title="Summary from Nisak"></a>Summary from Nisak</h2><h3 id="1-Using-Hexo-to-build-personal-website"><a href="#1-Using-Hexo-to-build-personal-website" class="headerlink" title="1. Using Hexo to build personal website"></a>1. Using Hexo to build personal website</h3><h4 id="Hexo-Github"><a href="#Hexo-Github" class="headerlink" title="Hexo + Github"></a><a href="https://www.jianshu.com/p/eded1dd2d794" target="_blank" rel="noopener">Hexo + Github</a></h4><p>Typo: Remember to change the deploy repo to the clone address of target repo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git </span><br><span class="line">  repo: git@github.com:usename/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-Add-pictures-using-hexo-extension"><a href="#2-Add-pictures-using-hexo-extension" class="headerlink" title="2. Add pictures using hexo extension"></a>2. Add pictures using hexo extension</h3><h5 id="1-Hexo-extension"><a href="#1-Hexo-extension" class="headerlink" title="1. Hexo extension"></a><a href="https://www.cnblogs.com/codehome/p/8428738.html?utm_source=debugrun&amp;utm_medium=referral" target="_blank" rel="noopener">1. Hexo extension</a></h5><p>I used the first method.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
 <p>It may generate reminders like, just ignore it.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">+ hexo-asset-image@0.0.3</span><br><span class="line">added 13 packages from 11 contributors and audited 5899 packages <span class="keyword">in</span> 29.214s</span><br><span class="line">found 2 low severity vulnerabilities</span><br><span class="line">  run `npm audit fix` to fix them, or `npm audit` <span class="keyword">for</span> details</span><br></pre></td></tr></table></figure>
 <p>After that, just put the picture into the folder and use:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![Hello Penguin!](penguin.jpg)</span><br></pre></td></tr></table></figure>
 <p><img src="/2018/12/23/hello-world/penguin.jpg" alt="Hello Penguin!"></p>
+<h5 id="2-Another-way-using-APP-iPic"><a href="#2-Another-way-using-APP-iPic" class="headerlink" title="2. Another way using APP iPic"></a><a href="https://www.jianshu.com/p/e46a91ae20b9" target="_blank" rel="noopener">2. Another way using APP iPic</a></h5><p>I haven’t tried this one yet.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/23/hello-world/" data-id="cjq53oqm60002nmsqfzqsk1f5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/23/hello-world/" data-id="cjq53v2fc0007qksqdoz6qjhj" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hello/">hello</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
