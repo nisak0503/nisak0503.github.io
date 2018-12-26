@@ -69,6 +69,57 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Learning-Git" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/12/26/Learning-Git/" class="article-date">
+  <time datetime="2018-12-26T10:37:52.000Z" itemprop="datePublished">2018-12-26</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Git/">Git</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/26/Learning-Git/">Learning Git</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>I’ve been learning git when I was an undergrad but the git commands are too many for me to memorize especially when I haven’t been using them for a while. </p>
+<p>In this article, I’m going to summarize some of the commonly used git commands that I encountered or learned from Nivra.</p>
+<h2 id="12-26-2018"><a href="#12-26-2018" class="headerlink" title="12/26/2018"></a>12/26/2018</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Your branch and <span class="string">'origin/master'</span> have diverged,</span><br><span class="line">and have 1 and 12 different commits each, respectively.</span><br></pre></td></tr></table></figure>
+<h4 id="Reason"><a href="#Reason" class="headerlink" title="Reason:"></a>Reason:</h4><blockquote>
+<p> I new a post but I decide to delete it and not to push it to the master.</p>
+<p>I delete the md file in _post but not sure if there’s other modified files. </p>
+<p>However, when I do git pull, it reminds me that my current branch and ‘origin/master’ have diverged.</p>
+</blockquote>
+<h4 id="Solution"><a href="#Solution" class="headerlink" title="Solution:"></a>Solution:</h4><h5 id="1-Do-not-keep-local-changes"><a href="#1-Do-not-keep-local-changes" class="headerlink" title="1. Do not keep local changes"></a>1. <a href="https://blog.csdn.net/robertsong2004/article/details/50471209" target="_blank" rel="noopener">Do not keep local changes</a></h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git fetch origin</span><br><span class="line">git reset --hard origin/master</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/12/26/Learning-Git/" data-id="cjq52626c0002wasq2q7th5po" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/commands/">commands</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/12/23/hello-world/" class="article-date">
@@ -110,7 +161,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/23/hello-world/" data-id="cjq51nnau0000ntsqyr20e090" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/23/hello-world/" data-id="cjq5262670000wasqmelmskxg" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hello/">hello</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
@@ -132,7 +183,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Greetings/">Greetings</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Greetings/">Greetings</a></li></ul>
     </div>
   </div>
 
@@ -142,7 +193,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hello/">hello</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/commands/">commands</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hello/">hello</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
     </div>
   </div>
 
@@ -152,7 +203,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/hello/" style="font-size: 10px;">hello</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
+      <a href="/tags/commands/" style="font-size: 10px;">commands</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/hello/" style="font-size: 10px;">hello</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a>
     </div>
   </div>
 
@@ -172,6 +223,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/12/26/Learning-Git/">Learning Git</a>
+          </li>
         
           <li>
             <a href="/2018/12/23/hello-world/">Hello World</a>
